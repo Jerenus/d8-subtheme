@@ -1,0 +1,22 @@
+name: ECSA
+type: theme
+description: A cuddly theme that offers ECSA site.
+core: 8.x
+# Defines the base theme
+base theme: classy
+# Screenshot
+screenshot: fluffiness.png
+# Defines libraries group in which we can add css/js.
+libraries:
+  - ecsa/global-styling
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+  - core/assets/vendor/normalize-css/normalize.css
+regions:
+  banner: Banner
+  header: Header
+  highlighted: Highlighted
+  content: Content  # the content region is required
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar Second'
+  footer: Footer
