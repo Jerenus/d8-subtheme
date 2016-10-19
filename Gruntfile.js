@@ -43,10 +43,10 @@ module.exports = function (grunt) {
     sass_globbing: {
       target: {
         files: {
-          'sass/_components.scss': 'sass/components/**/*.scss',
-          'sass/_abstractions.scss': 'sass/abstractions/**/*.scss',
-          'sass/_base.scss': 'sass/base/**/*.scss',
-          'sass/_variables.scss': 'sass/variables/**/*.scss'
+          'sass/component.scss': 'sass/component/**/*.scss',
+          'sass/layout.scss': 'sass/layout/**/*.scss',
+          'sass/base.scss': 'sass/base/**/*.scss',
+          'sass/variables.scss': 'sass/variables/**/*.scss'
         },
         options: {
           useSingleQuoates: false
